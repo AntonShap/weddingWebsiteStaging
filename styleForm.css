@@ -127,9 +127,30 @@ a{
 }
 
 @media screen and (max-width: 610px) {
-    .form-box, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
+    .form-box{
+      width: 250px;
+      
+    }
+
+    form{
+        width: 100%;
+        padding:0;  
+    }
+
+    input[type=text]{
+        width: 100%;
+        padding: 0px;
+    }
+
+    input[type=email]{
+        width: 100%;
+        padding: 0px;
+    }
+
+    body h3{
+        margin: 0 auto;
+        padding: 0;
+       
     }
 }
 
