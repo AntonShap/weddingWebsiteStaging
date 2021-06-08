@@ -80,7 +80,7 @@ function showMenu() {
             console.log( menuDiv.style.display);
 
         }
-        if (ev.target === menuBtn || spans) {
+        if (ev.target === menuBtn ) {
             let isVisiblee = menuDiv.style.display == 'flex';
             menuDiv.style.display = isVisiblee ? 'none' : 'flex';
         } 
