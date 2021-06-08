@@ -65,15 +65,32 @@ function showLanguges() {
 function showMenu() {
 
     const menuBtn = document.querySelector('.taggle-btn');
+    const main = document.querySelector('.main');
+    const spans = document.querySelectorAll('.bar')
 
-    menuBtn.addEventListener('click', onClick);
+    main.addEventListener('click', (ev) => { clickOnMain(ev) });
 
-    function onClick() {
+    //menuBtn.addEventListener('click', onClick);
 
-        const menuDiv = document.querySelector('.dpopdownMENU');
-        let isVisiblee = menuDiv.style.display == 'flex';
-        menuDiv.style.display = isVisiblee ? 'none' : 'flex';
+    const menuDiv = document.querySelector('.dpopdownMENU');
+    function clickOnMain(ev) {
+        console.log(spans[0]);
+        if (ev.target !== menuBtn &&  menuDiv.style.display == 'flex' ) {
+
+            menuDiv.style.display = 'none';
+
+        }  
+        if (ev.target === menuBtn || spans) {
+            let isVisiblee = menuDiv.style.display == 'flex';
+            menuDiv.style.display = isVisiblee ? 'none' : 'flex';
+        }
     }
+
+    // function onClick() {
+
+    //     let isVisiblee = menuDiv.style.display == 'flex';
+    //     menuDiv.style.display = isVisiblee ? 'none' : 'flex';
+    // }
 }
 
 
