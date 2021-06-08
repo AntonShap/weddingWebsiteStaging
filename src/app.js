@@ -70,20 +70,27 @@ function showMenu() {
     const menuDiv = document.querySelector('.dpopdownMENU');
 
     main.addEventListener('click', (ev) => { clickOnMain(ev) });
+    document.body.addEventListener('touchmove', onscroll);
 
     //menuBtn.addEventListener('click', onClick);
 
+    function onscroll() {
+        console.log('here');
+        menuDiv.style.display = 'none';
+
+    }
+
     function clickOnMain(ev) {
         console.log(ev.target);
-        if (ev.target !== menuBtn ) {
+        if (ev.target !== menuBtn) {
             menuDiv.style.display = 'none';
-            console.log( menuDiv.style.display);
+            console.log(menuDiv.style.display);
 
         }
-        if (ev.target === menuBtn ) {
+        if (ev.target === menuBtn || ev.target == spans[0] || ev.target == spans[1] || ev.target == spans[2]) {
             let isVisiblee = menuDiv.style.display == 'flex';
             menuDiv.style.display = isVisiblee ? 'none' : 'flex';
-        } 
+        }
     }
 
     // function onClick() {
