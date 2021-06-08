@@ -205,7 +205,7 @@ body {
     display: none;
     position: absolute;
     margin-top: 16px;
-    margin-left: 3px;
+    margin-left: 16px;
     background-color: #E4DBD2;
     min-width: 160px;
     max-width: 160px;
@@ -233,7 +233,7 @@ body {
     display: none;
     position: absolute;
     margin-top: 16px;
-    margin-left: -13px;
+    margin-left: -16px;
     background-color: #E4DBD2;
     min-width: 160px;
     max-width: 160px;
