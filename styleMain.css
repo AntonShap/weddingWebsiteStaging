@@ -68,11 +68,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 35px;
+    margin-left: 5px;
     width: 300px;
     height: auto;
     background-color: #E4DBD2;
     border: 1px solid #707070;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .h3-box {
@@ -1100,6 +1103,7 @@ a{
         display: flex;
         width: 100%;
         height: 40px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
     .taggle-btn {
@@ -1115,15 +1119,15 @@ a{
         display: flex;
         width: 100%;
         height: 259px;
-        border: 1px solid #707070;
         background-image: url(images/withoutdot.jpg);
         background-size: cover;
+        box-shadow: inset 0px 26px 20px -24px rgba(0,0,0,0.5)
     }
    
     .h1-h2-title {
         display: flex;
         flex-direction: column;
-        background-image: url(decorations/193996594_3056565821229918_9024444491368922609_n.png);
+        background-image: url(decorations/flowers__mobile_compressed.png);
         background-position: top;
         background-size: 100%;
         background-repeat: no-repeat;
