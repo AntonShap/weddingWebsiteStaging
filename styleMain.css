@@ -1238,8 +1238,11 @@ a{
         border-bottom: none;
         width: 414px;
         margin-top: 30px;
-        margin-bottom: -20px;
         height: auto;
+    }
+
+    .event-h3-box-en {
+        margin-bottom: -20px;
     }
 
     .event-h3-box-bg {
@@ -1268,7 +1271,7 @@ a{
 
     .h3-event-bg {
         font-size: 48px;
-        margin-bottom: -30px;
+        margin-bottom: -20px;
         margin-inline-end: 89px;
         padding: 0px;
         width: auto;
@@ -1277,7 +1280,7 @@ a{
 
     .h3-event-rom {
         font-size: 48px;
-        margin-bottom: -30px;
+        margin-bottom: -20px;
         margin-inline-end: 89px;
         padding: 0px;
         width: auto;
@@ -1287,6 +1290,11 @@ a{
     .curch-icon {
         width: 32px;
         height: 32px;
+    }
+
+    .church-details {
+        border-top: solid 1px #707070;
+        width: 396px;
     }
 
     .church-details h4 {
