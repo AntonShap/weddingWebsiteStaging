@@ -1260,15 +1260,19 @@ a{
     .rose-event-img {
         width: 83px;
         height: 86px;
-        margin-left: 10px;
-        margin-top: 50px;
+        margin-left: -15px;
+        margin-top: 70px;
         transform: rotate(180deg);
+    }
+
+    .event-h3-box-en img {
+        margin-left: 10px;
     }
 
     .h3-en {
         font-size: 48px;
         margin-top: 40px;
-        margin-inline-end: 97.5px;
+        margin-right: 110px;
         padding: 0px;
         width: auto;
         height: auto;
@@ -1276,16 +1280,17 @@ a{
 
     .h3-event-bg {
         font-size: 48px;
-        padding: 0px;
         width: auto;
         height: auto;
+        margin-left: -10px;
+        margin-bottom: -50px;
     }
 
     .h3-event-rom {
         font-size: 48px;
         margin-bottom: -20px;
         margin-inline-end: 89px;
-        padding: 0px;
+        padding-top: 20px;
         width: auto;
         height: auto;
     }
@@ -1322,8 +1327,9 @@ a{
 
     .h3-pre-en {
         font-size: 32px;
-        margin-left: 0px;
+        margin-left: -10px;
         margin-right: 0px;
+        padding-right: 25px;
     }
 
     .h3-pre-bg {
@@ -1335,6 +1341,7 @@ a{
     .h3-pre-ro {
         font-size: 32px;
         margin-right: 0px;
+        margin-right: -10px;
         padding-left: 3px;
     }
 
@@ -1343,7 +1350,8 @@ a{
         height: 32px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 35px;
+        margin-top: -8px;
+        padding-left: 30px;
     }
 
     .preDrincsIconBG {
@@ -1357,7 +1365,8 @@ a{
         width: 32px;
         height: 32px;
         padding-right: 3px;
-        margin-left: 0px;
+        margin-left: -6px;
+        margin-right: -5px;
     }
 
     .imgFlower {
