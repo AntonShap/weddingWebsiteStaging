@@ -99,7 +99,7 @@ body {
 }
 
 .header {
-    background-image: url(decorations/header-01.png);
+    background-image: url(decorations/header-01-min.png);
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -422,7 +422,7 @@ a{
 }
 
 .carousel {
-    position: relative;
+    display: block;
     height: 660px;
     width: 990px;;
     margin-top: 30px;
@@ -437,8 +437,8 @@ a{
 }
 
 .carousel__track-container {
+    margin: 0 auto;
     height: 660px;
-    position:relative;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /*hides the slide track images not being one next to each other*/
@@ -760,7 +760,7 @@ a{
 
 .footer-container {
     
-    background-image: url(decorations/footer.png);
+    background-image: url(decorations/footer_01_min.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -1127,7 +1127,7 @@ a{
     .h1-h2-title {
         display: flex;
         flex-direction: column;
-        background-image: url(decorations/flowers__mobile_compressed.1.0png\ \(1\).png);
+        background-image: url(decorations/flowers__mobile_compressed_1_0png.png);
         background-position: top;
         background-size: 120%;
         margin-top: -40px;
@@ -1152,6 +1152,7 @@ a{
     }
     
     .heroIMG-container {
+        display: none;
         background-image: none;
         border: none;
         border-radius: 0px;
@@ -1167,7 +1168,12 @@ a{
     .container {
         top: auto;
         bottom: auto;
+        height: 200px;
         margin-top: 30px;
+    }
+
+    .containetMobile {
+        margin-top: 50px;
     }
 
     .btnRSVP {
@@ -1223,16 +1229,15 @@ a{
     }
 
     .carousel__track-container {
-        width: 414px;
+        width: 384px;
         height: 314px;
-        border-radius: 0px;
-        box-shadow: none;
     }
 
     .event-h3-box {
         border-bottom: none;
         width: 414px;
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: -20px;
         height: auto;
     }
 
@@ -1247,7 +1252,7 @@ a{
         width: 83px;
         height: 86px;
         margin-left: 10px;
-        margin-top: 23px;
+        margin-top: 13px;
         transform: rotate(180deg);
     }
 
@@ -1292,10 +1297,8 @@ a{
     }
 
     .curchIMG {
-        width: 414px;
+        width: 384px;
         height: 224px;
-        border-radius: 0px;
-        box-shadow: none;
     }
 
     .pre-h3-box {
@@ -1360,10 +1363,8 @@ a{
     }
 
     .pre-img {
-        width: 414px;
-        height: 414px;
-        border-radius: 0px;
-        box-shadow: none;
+        width: 384px;
+        height: 384px;
     }
 
     .Pre-drinks-p {
@@ -1394,10 +1395,8 @@ a{
     }
 
     .reception-img {
-        width: 414px;
+        width: 384px;
         height: 234px;
-        border-radius: 0px;
-        box-shadow: none;
     }
 
     .map-container .h3-box {
@@ -1415,9 +1414,8 @@ a{
     }
 
     .map-container img {
-        width: 414px;
+        width: 384px;
         height: 344px;
-        box-shadow: none;
     }
 
     .map-p {
