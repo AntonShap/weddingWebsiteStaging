@@ -1127,11 +1127,12 @@ a{
     .h1-h2-title {
         display: flex;
         flex-direction: column;
-        background-image: url(decorations/flowers__mobile_compressed.png);
+        background-image: url(decorations/flowers__mobile_compressed.1.0png\ \(1\).png);
         background-position: top;
-        background-size: 100%;
+        background-size: 120%;
+        margin-top: -40px;
         background-repeat: no-repeat;
-        padding-top: 80px;
+        padding-top: 110px;
     }
 
     .h1-title {
