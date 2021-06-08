@@ -1452,5 +1452,7 @@ a{
     }
 
     .carousel__button--left {
+        height: 50px;
+        width: 50px;
     }
 }

@@ -74,7 +74,6 @@ function showMenu() {
 
     const menuDiv = document.querySelector('.dpopdownMENU');
     function clickOnMain(ev) {
-        console.log(spans[0]);
         if (ev.target !== menuBtn &&  menuDiv.style.display == 'flex' ) {
 
             menuDiv.style.display = 'none';
