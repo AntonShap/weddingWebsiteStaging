@@ -67,22 +67,23 @@ function showMenu() {
     const menuBtn = document.querySelector('.taggle-btn');
     const main = document.querySelector('.main');
     const spans = document.querySelectorAll('.bar')
+    const menuDiv = document.querySelector('.dpopdownMENU');
 
     main.addEventListener('click', (ev) => { clickOnMain(ev) });
 
     //menuBtn.addEventListener('click', onClick);
 
-    const menuDiv = document.querySelector('.dpopdownMENU');
     function clickOnMain(ev) {
-        if (ev.target !== menuBtn &&  menuDiv.style.display == 'flex' ) {
-
+        console.log(ev.target);
+        if (ev.target !== menuBtn ) {
             menuDiv.style.display = 'none';
+            console.log( menuDiv.style.display);
 
-        }  
+        }
         if (ev.target === menuBtn || spans) {
             let isVisiblee = menuDiv.style.display == 'flex';
             menuDiv.style.display = isVisiblee ? 'none' : 'flex';
-        }
+        } 
     }
 
     // function onClick() {
