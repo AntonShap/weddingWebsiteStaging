@@ -1093,8 +1093,12 @@ a{
 
     .nav-phone {
         display: flex;
-        width: 100%;
+        width: 360px;
         height: 40px;
+    }
+
+    .nav-phone nav {
+        width: 360px;
     }
 
     .langOptions {
@@ -1103,7 +1107,7 @@ a{
         width: 140px;
         margin-top: 5px;
         margin-right: 20px;
-        margin-left: 230px;
+        margin-left: 200px;
         font-family: 'Open Sans', sans-serif;
     }
     
@@ -1190,7 +1194,7 @@ a{
     }
 
     .story-h3-box {
-        width: 376px;
+        width: 340px;
         margin-top: 30px;
     }
 
@@ -1219,24 +1223,24 @@ a{
     }
 
     .p {
-        width: 351px;
+        width: 340px;
         height: auto;
         font-size: 16px;
     }
 
     .carousel {
-        width: 414px;
+        width: 340px;
         height: auto;
     }
 
     .carousel__track-container {
-        width: 384px;
+        width: 340px;
         height: 314px;
     }
 
     .event-h3-box {
         border-bottom: none;
-        width: 414px;
+        width: 340px;
         margin-top: 30px;
         height: auto;
     }
@@ -1247,16 +1251,17 @@ a{
 
     .event-h3-box-bg {
         border-bottom: none;
-        width: 414px;
+        width: 340px;
         margin-top: 10px;
-        height: auto;
+        height: 190px;
+        align-items: center;
     }
 
     .rose-event-img {
         width: 83px;
         height: 86px;
         margin-left: 10px;
-        margin-top: 13px;
+        margin-top: 50px;
         transform: rotate(180deg);
     }
 
@@ -1271,8 +1276,6 @@ a{
 
     .h3-event-bg {
         font-size: 48px;
-        margin-bottom: -20px;
-        margin-inline-end: 89px;
         padding: 0px;
         width: auto;
         height: auto;
@@ -1294,7 +1297,7 @@ a{
 
     .church-details {
         border-top: solid 1px #707070;
-        width: 396px;
+        width: 340px;
     }
 
     .church-details h4 {
@@ -1306,12 +1309,12 @@ a{
     }
 
     .curchIMG {
-        width: 384px;
+        width: 340px;
         height: 224px;
     }
 
     .pre-h3-box {
-        width: 396px;
+        width: 340px;
         align-items: center;
         justify-content: center;
         margin-top: 40px;
@@ -1372,12 +1375,12 @@ a{
     }
 
     .pre-img {
-        width: 384px;
-        height: 384px;
+        width: 340px;
+        height: 340px;
     }
 
     .Pre-drinks-p {
-        width: 351px;
+        width: 340px;
         height: auto;
         font-size: 24px;
         margin-right: 0px;
@@ -1389,7 +1392,7 @@ a{
     }
 
     .reception-h3-icon {
-        width: 396px;
+        width: 340px;
         margin-top: 40px;
     }
 
@@ -1404,12 +1407,12 @@ a{
     }
 
     .reception-img {
-        width: 384px;
+        width: 340px;
         height: 234px;
     }
 
     .map-container .h3-box {
-        width: 396px;
+        width: 340px;
         margin-top: 50px;
     }
 
@@ -1423,12 +1426,12 @@ a{
     }
 
     .map-container img {
-        width: 384px;
-        height: 344px;
+        width: 340px;
+        height: 340px;
     }
 
     .map-p {
-        width: 351px;
+        width: 340px;
         height: auto;
         margin-left: 0px;
         margin-top: 10px;
@@ -1440,18 +1443,18 @@ a{
     }
 
     .accomodation-container .h3-box {
-        width: 396px;
+        width: 340px;
         margin-top: 40px;
     }
 
     .presents-container .h3-box {
-        width: 396px;
+        width: 340px;
         margin-top: 40px;
     }
 
     .footer {
         margin-top: 60px;
-        max-width: 396px;
+        max-width: 340px;
     }
 
     .p1 {
