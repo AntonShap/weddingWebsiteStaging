@@ -9,7 +9,7 @@
 
 
 carousel();
-showLanguges();
+//showLanguges();
 showMenu();
 
 // const main = document.querySelector('main');
