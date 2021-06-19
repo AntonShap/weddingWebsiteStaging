@@ -12,6 +12,8 @@ carousel();
 //showLanguges();
 showMenu();
 
+
+
 // const main = document.querySelector('main');
 
 // page('/bulgarianPage', decorator, bgPage);

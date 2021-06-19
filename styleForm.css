@@ -29,6 +29,18 @@ body h3{
     border-bottom: 1px solid white;
 }
 
+.plussOneFields {
+    display: none;      
+}
+
+.plusOneChieldFields {
+    display: none;
+}
+
+.secondChildFields {
+    display: none;
+}
+
 form {
     font-size: 18px;
     color:white;
@@ -100,7 +112,7 @@ button:hover {
 }
 
 
-a{
+a {
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
