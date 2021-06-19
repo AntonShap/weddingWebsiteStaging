@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,32 @@
     <link rel="stylesheet" href="/styleForm.css">
     <link rel="icon" href="/images/tabIcon.PNG">
     <title>Invitație - Ne căsătorim! </title>
+    <script type="module" src="/src/formApp.js"></script>
 </head>
+
 <body>
     <div class="form-box">
         <h3 class="GV-Cyrillic">Invitație</h3>
     </div>
-    
+
 
     <form action="/thankYouRO.html" name="Registeres Guests RO" method="POST" data-netlify="true">
         <div class="fillIn">
-            <label for="firstName"Nume>Prenume</label>
+            <label for="firstName" Nume>Prenume</label>
             <br>
-            <input  type= "text" name ="firstName" id="firstName" required>
+            <input type="text" name="firstName" id="firstName" required>
         </div>
-        
+
         <div class="fillIn">
             <label for="surname">Nume</label>
             <br>
-            <input  type= "text" name = "surname" id="surname" required>
+            <input type="text" name="surname" id="surname" required>
         </div>
-        
+
         <div class="fillIn">
             <label for="e-mail">Email</label>
             <br>
-            <input  type="email" name = "e-mail" id="e-mail" required>
+            <input type="email" name="e-mail" id="e-mail" required>
         </div>
 
         <br>
@@ -39,97 +42,110 @@
             <label for="vegeterian">Vegetarian</label>
             <input type="checkbox" name="vegeterian" id="vegeterian">
         </div>
-                
+
 
         <!-- hide button when selected and place the line - form box div -->
         <br>
-        <button> <a href="indexBG.html">+ 1</a> </button>
+        <button type="button" class="plusOneBtn">+ 1</button>
+        <button type="submit" class="submitBtnplusOne">Trimite</button>
 
-        <div class="form-box"></div>
+        <div class="plussOneFields">
 
-        <!-- Plus 0ne  -->
+            <div class="form-box"></div>
 
-        <div class="fillIn">
-            <label for="firstName2">Prenume (+1)</label>
+            <!-- Plus 0ne  -->
+
+            <div class="fillIn">
+                <label for="firstName2">Prenume (+1)</label>
+                <br>
+                <input type="text" name="firstName2" id="firstName2">
+            </div>
+
+            <div class="fillIn">
+                <label for="surname2">Nume (+1)</label>
+                <br>
+                <input type="text" name="surname2" id="surname2">
+            </div>
+
             <br>
-            <input  type= "text" name ="firstName2" id="firstName2" >
-        </div>
-        
-        <div class="fillIn">
-            <label for="surname2">Nume (+1)</label>
+
+            <div id="checkbox">
+                <label for="vegeterian2">Vegetarian (+1)</label>
+                <input type="checkbox" name="vegeterian2" id="vegeterian2">
+            </div>
+
+
+            <!-- hide button when selected -->
             <br>
-            <input  type= "text" name = "surname2" id="surname2" >
+            <button type="button" class="plusChildBtn">+ Copil</button>
+            <button type="submit" class="submitBtnChild">Trimite</button>
         </div>
-        
-        <br>
 
-        <div id="checkbox">
-            <label for="vegeterian2">Vegetarian (+1)</label>
-            <input type="checkbox" name="vegeterian2" id="vegeterian2">
-        </div>
-        
+        <div class="plusOneChieldFields">
 
-        <!-- hide button when selected -->
-        <br>
-        <button> <a href="index.html">+ Copil</a> </button>
+            <div class="form-box"></div>
+            <!-- Plus Child 1  -->
 
-        <div class="form-box"></div>
-        <!-- Plus Child 1  -->
+            <div class="fillIn">
+                <label for="firstName3">Prenume (Copil)</label>
+                <br>
+                <input type="text" name="firstName3" id="firstName3">
+            </div>
 
-        <div class="fillIn">
-            <label for="firstName3">Prenume (Copil)</label>
+            <div class="fillIn">
+                <label for="surname3">Nume (Copil)</label>
+                <br>
+                <input type="text" name="surname3" id="surname3">
+            </div>
+
             <br>
-            <input  type= "text" name ="firstName3" id="firstName3" >
-        </div>
-        
-        <div class="fillIn">
-            <label for="surname3">Nume (Copil)</label>
+
+            <div id="checkbox">
+                <label for="vegeterian3">Vegetarian (Copil)</label>
+                <input type="checkbox" name="vegeterian3" id="vegeterian3">
+            </div>
+
+
+            <!-- hide button when selected -->
             <br>
-            <input  type= "text" name = "surname3" id="surname3" >
+            <button type="button" class="secondCildBtn">+ al doilea Copil</button>
+            <button type="submit" class="submitBtnSecondChild">Trimite</button>
         </div>
-        
-        <br>
 
-        <div id="checkbox">
-            <label for="vegeterian3">Vegetarian (Copil)</label>
-            <input type="checkbox" name="vegeterian3" id="vegeterian3">
+        <div class="secondChildFields">
+
+            <div class="form-box"></div>
+            <!-- Plus Child 1  -->
+
+            <div class="fillIn">
+                <label for="firstName4">Prenume (al doilea Copil)</label>
+                <br>
+                <input type="text" name="firstName4" id="firstName4">
+            </div>
+
+            <div class="fillIn">
+                <label for="surname4">Nume (al doilea Copil)</label>
+                <br>
+                <input type="text" name="surname4" id="surname4">
+            </div>
+
+            <br>
+
+            <div id="checkbox">
+                <label for="vegeterian4">Vegetarian (al doilea Copil)</label>
+                <input type="checkbox" name="vegeterian4" id="vegeterian4">
+            </div>
+            <br>
+
+            <button type="submit">Trimite</button>
         </div>
-       
 
-         <!-- hide button when selected -->
-         <br>
-         <button> <a href="index.html">+ al doilea Copil</a> </button>
-
-         <div class="form-box"></div>
-         <!-- Plus Child 1  -->
- 
-         <div class="fillIn">
-             <label for="firstName4">Prenume (al doilea Copil)</label>
-             <br>
-             <input  type= "text" name ="firstName4" id="firstName4" >
-         </div>
-         
-         <div class="fillIn">
-             <label for="surname4">Nume (al doilea Copil)</label>
-             <br>
-             <input  type= "text" name = "surname4" id="surname4" >
-         </div>
-         
-         <br>
- 
-         <div id="checkbox">
-             <label for="vegeterian4">Vegetarian (al doilea Copil)</label>
-             <input type="checkbox" name="vegeterian4" id="vegeterian4">
-         </div>
-         <br>
-
-        <button type="submit">Trimite</button>
-        
         <br>
         <br>
     </form>
 
     <h3 class="GV-Cyrillic">Vă Mulțumim!</h3>
-    
+
 </body>
+
 </html>
