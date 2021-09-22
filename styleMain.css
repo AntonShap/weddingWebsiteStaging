@@ -447,7 +447,7 @@ a{
     height: 100%;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    padding-inline-start: 10px;
+    padding-inline-start: 0px;
     transition: transform 250ms ease-in; 
     
 }
