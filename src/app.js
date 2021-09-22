@@ -121,7 +121,7 @@ function carousel() {
     // slides[2].style.left = slideWidth * 2 + 'px';
 
     const setSlidePosition = (slide, index) => {
-        slide.style.left = (slideWidth ) * index + 'px';
+        slide.style.left = (slideWidth +36) * index + 'px';
     };
     slides.forEach(setSlidePosition);
 
