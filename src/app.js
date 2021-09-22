@@ -83,10 +83,8 @@ function showMenu() {
     }
 
     function clickOnMain(ev) {
-        console.log(ev.target);
         if (ev.target !== menuBtn) {
             menuDiv.style.display = 'none';
-            console.log(menuDiv.style.display);
 
         }
         if (ev.target === menuBtn || ev.target == spans[0] || ev.target == spans[1] || ev.target == spans[2]) {
@@ -113,10 +111,10 @@ function carousel() {
     // const dots = Array.from(dotsNav.children);
 
     const slideWidth = slides[0].getBoundingClientRect().width;
-
+    console.log(slideWidth);
     //arrange the slides next to one another
 
-    slides[0].style.left = slideWidth * 0 + 'px';
+    slides[0].style.left =  0 + 'px';
     slides[1].style.left = slideWidth * 1 + 'px';
     slides[2].style.left = slideWidth * 2 + 'px';
 
@@ -138,7 +136,6 @@ function carousel() {
     // }
 
     const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
-        console.log(targetIndex);
         if (targetIndex === 0) {
             prevButton.classList.add('is-hidden');
             nextButton.classList.remove('is-hidden');
