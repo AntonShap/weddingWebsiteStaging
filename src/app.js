@@ -113,7 +113,7 @@ function carousel() {
     // const slideWidth = slides[0].getBoundingClientRect().width;
     const slideWidth = slides[0].clientWidth;
     console.log(slideWidth);
-    console.log(slides[0].clientWidth);
+    console.log(slides[0]);
     //arrange the slides next to one another
 
     // slides[0].style.left =  0 + 'px';
@@ -121,7 +121,7 @@ function carousel() {
     // slides[2].style.left = slideWidth * 2 + 'px';
 
     const setSlidePosition = (slide, index) => {
-        slide.style.left = (slideWidth +36) * index + 'px';
+        slide.style.left = (slideWidth + 36) * index + 'px';
     };
     slides.forEach(setSlidePosition);
 
