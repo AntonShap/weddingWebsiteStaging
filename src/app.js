@@ -77,7 +77,6 @@ function showMenu() {
     //menuBtn.addEventListener('click', onClick);
 
     function onscroll() {
-        console.log('here');
         menuDiv.style.display = 'none';
 
     }
