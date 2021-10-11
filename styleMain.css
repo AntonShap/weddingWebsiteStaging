@@ -725,6 +725,39 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.h3-seating-chart {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.seating-lists ul {
+  padding: 2%;
+}
+
+.seating-lists ul li {
+    list-style-type: none;
+    
+}
+
+.seating-lists {
+    width: 1062px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.li-number {
+    font-size: 28px;
+}
+
+.li-person {
+    font-size: 24px;
+}
+
 .div-img-p-map {
     display: flex;
     flex-direction: row;
@@ -1059,6 +1092,18 @@ a{
 
     .h3 {
         font-size: 42px;
+    }
+
+    .h3-seating-chart {
+        font-size: 28px;
+    }
+
+    .seating-lists {
+        width: 650px;
+    }
+
+    .li-person {
+        font-size: 16px;
     }
 
     .map-container img {
@@ -1421,6 +1466,32 @@ a{
     .reception-img {
         width: 340px;
         height: 234px;
+    }
+
+    .h3-seating-chart {
+        font-size: 32px;
+    }
+
+    .on-yhe-day .h3-box {
+        width: 340px;
+        margin-top: 50px;
+    }
+
+    .seating-chart-box {
+        width: 340px;
+        margin-top: 50px
+    }
+
+    .seating-lists {
+        width: 340px;
+    }
+
+    .li-number {
+        font-size: 32px;
+    }
+    
+    .li-person {
+        font-size: 16px;
     }
 
     .map-container .h3-box {
