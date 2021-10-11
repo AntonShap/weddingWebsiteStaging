@@ -745,14 +745,14 @@ a{
     display: flex;
     flex-direction: row;
     align-content:center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
 .li-number {
     font-size: 28px;
-    margin-bottom: 24px;
+    font-weight: bold;
 }
 
 .li-person {
