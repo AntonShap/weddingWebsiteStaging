@@ -737,7 +737,7 @@ a{
 
 .seating-lists ul li {
     list-style-type: none;
-    
+    flex-grow: 1;
 }
 
 .seating-lists {
@@ -752,12 +752,10 @@ a{
 
 .li-number {
     font-size: 28px;
-    font-weight: bold;
 }
 
 .li-person {
     font-size: 24px;
-    text-align: left;
 }
 
 .div-img-p-map {
