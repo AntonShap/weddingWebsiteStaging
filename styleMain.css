@@ -737,7 +737,7 @@ a{
 
 .seating-lists ul li {
     list-style-type: none;
-    flex-grow: 1;
+    width: 100px;
 }
 
 .seating-lists {
@@ -745,7 +745,7 @@ a{
     display: flex;
     flex-direction: row;
     align-content:center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
@@ -1100,6 +1100,10 @@ a{
 
     .seating-lists {
         width: 650px;
+    }
+
+    .seating-lists ul li {
+        width: 60px;
     }
 
     .li-person {
