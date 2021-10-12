@@ -1516,12 +1516,13 @@ a{
         margin-top: 50px
     }
 
-    .seating-lists {
-        column-gap: 60px;
+    .kid-table {
+        margin-right: 134px;
     }
-
+    
     .seating-lists {
         width: 340px;
+        column-gap: 60px;
     }
 
     .li-number {
