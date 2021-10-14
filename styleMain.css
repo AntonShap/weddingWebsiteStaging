@@ -1393,6 +1393,7 @@ a{
 
     .h5 {
         font-size: 24px;
+        max-width: 320px;
     }
 
     .curchIMG {
@@ -1560,6 +1561,18 @@ a{
         width: 280px;
         margin-top: 50px;
         margin-left: 30px;
+    }
+
+    .timeline-mobille-img-ro {
+        width: 280px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .timeline-mobille-img-bg {
+        width: 280px;
+        margin-top: 50px;
+        margin-left: 50px;
     }
 
     .div-img-p-map {
