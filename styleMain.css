@@ -739,7 +739,7 @@ a{
 
 .seating-lists ul li {
     list-style-type: none;
-    width: 100px;
+    width: 90px;
 }
 
 .seating-lists {
@@ -757,7 +757,7 @@ a{
 }
 
 .li-person {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .h3-timeline-headline {
@@ -1124,8 +1124,10 @@ a{
     }
 
     .seating-lists ul li {
-        width: 60px;
+        width: 120px;
     }
+
+
 
     .li-person {
         font-size: 16px;
